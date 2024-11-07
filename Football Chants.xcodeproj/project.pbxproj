@@ -11,8 +11,9 @@
 		51093C942CDBCEAD00AC9DE6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51093C932CDBCEAD00AC9DE6 /* SceneDelegate.swift */; };
 		51093C962CDBCEAD00AC9DE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51093C952CDBCEAD00AC9DE6 /* ViewController.swift */; };
 		51093C992CDBCEAD00AC9DE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51093C972CDBCEAD00AC9DE6 /* Main.storyboard */; };
-		51093C9B2CDBCEAE00AC9DE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51093C9A2CDBCEAE00AC9DE6 /* Assets.xcassets */; };
 		51093C9E2CDBCEAE00AC9DE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51093C9C2CDBCEAE00AC9DE6 /* LaunchScreen.storyboard */; };
+		51737F032CDD1A2500BC9F4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51737F022CDD1A2500BC9F4E /* Assets.xcassets */; };
+		51737F052CDD1A5100BC9F4E /* Resources in Resources */ = {isa = PBXBuildFile; fileRef = 51737F042CDD1A5100BC9F4E /* Resources */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,9 +22,10 @@
 		51093C932CDBCEAD00AC9DE6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		51093C952CDBCEAD00AC9DE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		51093C982CDBCEAD00AC9DE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		51093C9A2CDBCEAE00AC9DE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51093C9D2CDBCEAE00AC9DE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51093C9F2CDBCEAE00AC9DE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51737F022CDD1A2500BC9F4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		51737F042CDD1A5100BC9F4E /* Resources */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Resources; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,11 +58,12 @@
 		51093C902CDBCEAD00AC9DE6 /* Football Chants */ = {
 			isa = PBXGroup;
 			children = (
+				51737F042CDD1A5100BC9F4E /* Resources */,
+				51737F022CDD1A2500BC9F4E /* Assets.xcassets */,
 				51093C912CDBCEAD00AC9DE6 /* AppDelegate.swift */,
 				51093C932CDBCEAD00AC9DE6 /* SceneDelegate.swift */,
 				51093C952CDBCEAD00AC9DE6 /* ViewController.swift */,
 				51093C972CDBCEAD00AC9DE6 /* Main.storyboard */,
-				51093C9A2CDBCEAE00AC9DE6 /* Assets.xcassets */,
 				51093C9C2CDBCEAE00AC9DE6 /* LaunchScreen.storyboard */,
 				51093C9F2CDBCEAE00AC9DE6 /* Info.plist */,
 			);
@@ -125,8 +128,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51737F052CDD1A5100BC9F4E /* Resources in Resources */,
 				51093C9E2CDBCEAE00AC9DE6 /* LaunchScreen.storyboard in Resources */,
-				51093C9B2CDBCEAE00AC9DE6 /* Assets.xcassets in Resources */,
+				51737F032CDD1A2500BC9F4E /* Assets.xcassets in Resources */,
 				51093C992CDBCEAD00AC9DE6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
