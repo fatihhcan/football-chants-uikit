@@ -11,6 +11,7 @@
 		51093C942CDBCEAD00AC9DE6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51093C932CDBCEAD00AC9DE6 /* SceneDelegate.swift */; };
 		51093C992CDBCEAD00AC9DE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51093C972CDBCEAD00AC9DE6 /* Main.storyboard */; };
 		51093C9E2CDBCEAE00AC9DE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51093C9C2CDBCEAE00AC9DE6 /* LaunchScreen.storyboard */; };
+		51180A6B2CDF781B005BE39D /* TeamTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51180A6A2CDF781B005BE39D /* TeamTableViewCell.swift */; };
 		51737F032CDD1A2500BC9F4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51737F022CDD1A2500BC9F4E /* Assets.xcassets */; };
 		51737F082CDD219F00BC9F4E /* ChantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51737F072CDD219F00BC9F4E /* ChantsViewController.swift */; };
 		51737F1F2CDD23FB00BC9F4E /* burnley.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 51737F0B2CDD23FB00BC9F4E /* burnley.mp3 */; };
@@ -45,6 +46,7 @@
 		51093C982CDBCEAD00AC9DE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		51093C9D2CDBCEAE00AC9DE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51093C9F2CDBCEAE00AC9DE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51180A6A2CDF781B005BE39D /* TeamTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamTableViewCell.swift; sourceTree = "<group>"; };
 		51737F022CDD1A2500BC9F4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51737F072CDD219F00BC9F4E /* ChantsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChantsViewController.swift; sourceTree = "<group>"; };
 		51737F0B2CDD23FB00BC9F4E /* burnley.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = burnley.mp3; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 		51093C902CDBCEAD00AC9DE6 /* Football Chants */ = {
 			isa = PBXGroup;
 			children = (
+				51180A692CDF7800005BE39D /* Views */,
 				51AA2D632CDEE0E700A08B85 /* ViewModel */,
 				51AA2D5E2CDEDF3400A08B85 /* Model */,
 				51737F092CDD23FB00BC9F4E /* Resources */,
@@ -114,6 +117,14 @@
 				51093C9F2CDBCEAE00AC9DE6 /* Info.plist */,
 			);
 			path = "Football Chants";
+			sourceTree = "<group>";
+		};
+		51180A692CDF7800005BE39D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				51180A6A2CDF781B005BE39D /* TeamTableViewCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		51737F062CDD213900BC9F4E /* ViewControllers */ = {
@@ -270,6 +281,7 @@
 				51AA2D652CDEE0E700A08B85 /* TeamsViewModel.swift in Sources */,
 				51AA2D622CDEDFC500A08B85 /* ManagerModel.swift in Sources */,
 				51AA2D602CDEDF4C00A08B85 /* TeamModel.swift in Sources */,
+				51180A6B2CDF781B005BE39D /* TeamTableViewCell.swift in Sources */,
 				51737F082CDD219F00BC9F4E /* ChantsViewController.swift in Sources */,
 				51093C922CDBCEAD00AC9DE6 /* AppDelegate.swift in Sources */,
 				51093C942CDBCEAD00AC9DE6 /* SceneDelegate.swift in Sources */,
