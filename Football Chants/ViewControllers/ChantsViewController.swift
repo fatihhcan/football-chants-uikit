@@ -31,6 +31,8 @@ class ChantsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        TeamsViewModel().teams = []
 
         // Do any additional setup after loading the view.
         self.view.backgroundColor = .systemBlue

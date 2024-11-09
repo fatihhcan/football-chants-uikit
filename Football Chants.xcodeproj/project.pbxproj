@@ -33,6 +33,9 @@
 		51737F302CDD23FB00BC9F4E /* arsenal.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 51737F1C2CDD23FB00BC9F4E /* arsenal.mp3 */; };
 		51737F312CDD23FB00BC9F4E /* everton.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 51737F1D2CDD23FB00BC9F4E /* everton.mp3 */; };
 		51737F322CDD23FB00BC9F4E /* Teams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51737F1E2CDD23FB00BC9F4E /* Teams.swift */; };
+		51AA2D602CDEDF4C00A08B85 /* TeamModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AA2D5F2CDEDF4C00A08B85 /* TeamModel.swift */; };
+		51AA2D622CDEDFC500A08B85 /* ManagerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AA2D612CDEDFC500A08B85 /* ManagerModel.swift */; };
+		51AA2D652CDEE0E700A08B85 /* TeamsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AA2D642CDEE0E700A08B85 /* TeamsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +67,9 @@
 		51737F1C2CDD23FB00BC9F4E /* arsenal.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = arsenal.mp3; sourceTree = "<group>"; };
 		51737F1D2CDD23FB00BC9F4E /* everton.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = everton.mp3; sourceTree = "<group>"; };
 		51737F1E2CDD23FB00BC9F4E /* Teams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Teams.swift; sourceTree = "<group>"; };
+		51AA2D5F2CDEDF4C00A08B85 /* TeamModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamModel.swift; sourceTree = "<group>"; };
+		51AA2D612CDEDFC500A08B85 /* ManagerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerModel.swift; sourceTree = "<group>"; };
+		51AA2D642CDEE0E700A08B85 /* TeamsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,8 @@
 		51093C902CDBCEAD00AC9DE6 /* Football Chants */ = {
 			isa = PBXGroup;
 			children = (
+				51AA2D632CDEE0E700A08B85 /* ViewModel */,
+				51AA2D5E2CDEDF3400A08B85 /* Model */,
 				51737F092CDD23FB00BC9F4E /* Resources */,
 				51737F062CDD213900BC9F4E /* ViewControllers */,
 				51737F022CDD1A2500BC9F4E /* Assets.xcassets */,
@@ -149,6 +157,23 @@
 				51737F1D2CDD23FB00BC9F4E /* everton.mp3 */,
 			);
 			path = Chants;
+			sourceTree = "<group>";
+		};
+		51AA2D5E2CDEDF3400A08B85 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				51AA2D5F2CDEDF4C00A08B85 /* TeamModel.swift */,
+				51AA2D612CDEDFC500A08B85 /* ManagerModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		51AA2D632CDEE0E700A08B85 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				51AA2D642CDEE0E700A08B85 /* TeamsViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,6 +267,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				51737F322CDD23FB00BC9F4E /* Teams.swift in Sources */,
+				51AA2D652CDEE0E700A08B85 /* TeamsViewModel.swift in Sources */,
+				51AA2D622CDEDFC500A08B85 /* ManagerModel.swift in Sources */,
+				51AA2D602CDEDF4C00A08B85 /* TeamModel.swift in Sources */,
 				51737F082CDD219F00BC9F4E /* ChantsViewController.swift in Sources */,
 				51093C922CDBCEAD00AC9DE6 /* AppDelegate.swift in Sources */,
 				51093C942CDBCEAD00AC9DE6 /* SceneDelegate.swift in Sources */,
