@@ -35,12 +35,15 @@ class ChantsViewController: UIViewController {
         
 
         // Do any additional setup after loading the view.
-        self.view.backgroundColor = .systemBlue
+        self.view.backgroundColor = .white
     }
 }
 
 private extension ChantsViewController {
     func setup() {
+        
+        self.navigationController?.navigationBar.topItem?.title = "Football Chants"
+        self.navigationController?.navigationBar.prefersLargeTitles = true
         
         tableVw.dataSource = self
         
