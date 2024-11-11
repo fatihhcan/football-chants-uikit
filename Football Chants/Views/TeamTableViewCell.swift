@@ -83,15 +83,16 @@ class TeamTableViewCell: UITableViewCell {
         containerVw.layer.cornerRadius = 10
     }
     
-    func configure() {
-        containerVw.backgroundColor = TeamType.arsenal.background
+    func configure(with item: TeamModel) {
+        containerVw.backgroundColor = item.id.background
         
-        badgeImgVw.image = TeamType.arsenal.badge
-        playbackBtn.setImage(UIImage(systemName: "play.circle.fill", withConfiguration: UIImage.SymbolConfiguration(pointSize: 32)), for: .normal)
-        nameLbl.text = "Arsenal"
-        foundedLbl.text = "1800"
-        jobLbl.text = "Current Manager: Fatih Can"
-        infoLbl.text = "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
+        badgeImgVw.image = item.id.badge
+        playbackBtn.setImage(item.isPlaying ? Assets.pause : Assets.play, for: .normal)
+        nameLbl.text = item.name
+        foundedLbl.text = item.founded
+        jobLbl.text = "Current \(item.manager.job.rawValue): \(item.manager.name)"
+        infoLbl.text = item.info
+        
         self.contentView.addSubview(containerVw)
         containerVw.addSubview(contentStackVw)
         containerVw.addSubview(badgeImgVw)
