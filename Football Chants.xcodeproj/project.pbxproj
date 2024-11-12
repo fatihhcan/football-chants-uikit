@@ -37,6 +37,7 @@
 		51AA2D602CDEDF4C00A08B85 /* TeamModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AA2D5F2CDEDF4C00A08B85 /* TeamModel.swift */; };
 		51AA2D622CDEDFC500A08B85 /* ManagerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AA2D612CDEDFC500A08B85 /* ManagerModel.swift */; };
 		51AA2D652CDEE0E700A08B85 /* TeamsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AA2D642CDEE0E700A08B85 /* TeamsViewModel.swift */; };
+		51C499E82CE3BA77003513AC /* AudioManagerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C499E72CE3BA77003513AC /* AudioManagerViewModel.swift */; };
 		51DD8C842CE2346900ECC0DA /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DD8C832CE2346900ECC0DA /* Assets.swift */; };
 /* End PBXBuildFile section */
 
@@ -73,6 +74,7 @@
 		51AA2D5F2CDEDF4C00A08B85 /* TeamModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamModel.swift; sourceTree = "<group>"; };
 		51AA2D612CDEDFC500A08B85 /* ManagerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerModel.swift; sourceTree = "<group>"; };
 		51AA2D642CDEE0E700A08B85 /* TeamsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamsViewModel.swift; sourceTree = "<group>"; };
+		51C499E72CE3BA77003513AC /* AudioManagerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManagerViewModel.swift; sourceTree = "<group>"; };
 		51DD8C832CE2346900ECC0DA /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -186,6 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				51AA2D642CDEE0E700A08B85 /* TeamsViewModel.swift */,
+				51C499E72CE3BA77003513AC /* AudioManagerViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 				51AA2D622CDEDFC500A08B85 /* ManagerModel.swift in Sources */,
 				51AA2D602CDEDF4C00A08B85 /* TeamModel.swift in Sources */,
 				51180A6B2CDF781B005BE39D /* TeamTableViewCell.swift in Sources */,
+				51C499E82CE3BA77003513AC /* AudioManagerViewModel.swift in Sources */,
 				51737F082CDD219F00BC9F4E /* ChantsViewController.swift in Sources */,
 				51093C922CDBCEAD00AC9DE6 /* AppDelegate.swift in Sources */,
 				51093C942CDBCEAD00AC9DE6 /* SceneDelegate.swift in Sources */,
